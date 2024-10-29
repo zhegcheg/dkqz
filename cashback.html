@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Kartu Saya</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="lib/layui/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/public_position.css" />
+		<link rel="stylesheet" type="text/css" href="css/kartuSaya.css" />
+		<link rel="stylesheet" type="text/css" href="include/footer.css" />
+
+
+		<script src="lib/jquery/jquery-3.4.1.min.js"></script>
+		<script src="lib/layui/layui.js"></script>
+		<script src="js/core.js"></script>
+		<script src="include/include.js"></script>
+		<style>
+			body {
+				background-color: #F3F3F3;
+			}
+
+			.id-carousel-box {
+				width: 92%;
+			}
+
+			#id-carousel-1 img {
+				width: 100%;
+			}
+
+			#id-carousel-1 {
+				margin-left: 4.5%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<section>
+				<main>
+					<img src="img/cashback_01.png" style="width: 100%;" />
+					<div class="id-carousel-box">
+						<div class="layui-carousel" id="id-carousel-1">
+							<div carousel-item>
+								<div><img src="img/ba/ba_01.png" alt="" /></div>
+								<div><img src="img/ba/ba_02.png" alt="" /></div>
+								<div><img src="img/ba/ba_03.png" alt="" /></div>
+								<div><img src="img/ba/ba_04.png" alt="" /></div>
+								<div><img src="img/ba/ba_05.png" alt="" /></div>
+							</div>
+						</div>
+					</div>
+					<div style="height: 10px;"></div>
+					<img src="img/cashback_02.png" style="width: 100%;" />
+					<div style="height: 100px;"></div>
+				</main>
+			</section>
+
+			<footer id="footer">
+				<main>
+					<a href="transaksi.html">
+						<dl>
+							<dt><i class="layui-icon layui-icon-home icon_home"></i> </dt>
+							<dd>
+								Transaksi
+							</dd>
+						</dl>
+					</a>
+					<a href="cashback.html">
+						<dl>
+							<dt><i class="layui-icon layui-icon-spread-left icon_zhuanti"></i> </dt>
+							<dd class="dd-active">Cashback</dd>
+						</dl>
+					</a>
+					<a href="kartuSaya.html">
+						<dl>
+							<dt><i class="layui-icon layui-icon-find-fill icon_loufeng"></i> </dt>
+							<dd>kartu Saya</dd>
+						</dl>
+					</a>
+					<a href="pesan.html">
+						<dl>
+							<dt style="display: flex;flex-direction: row;justify-content: center;align-items: center;">
+								<img src="img/icon/tA.png" style="width: 25px;height: 25px;" /></dt>
+							<dd>pesan</dd>
+						</dl>
+					</a>
+					<a href="profil.html">
+						<dl>
+							<dt><i class="layui-icon layui-icon-username icon_username"></i> </dt>
+							<dd>Profil</dd>
+						</dl>
+					</a>
+				</main>
+			</footer>
+		</div>
+		<script>
+			layui.use(function() {
+				var carousel = layui.carousel;
+				// 渲染 - 常规轮播
+				carousel.render({
+					elem: '#id-carousel-1',
+					arrow: "none",
+					indicator: "none",
+					width: '100%',
+					height: "90px"
+				});
+			});
+		</script>
+	</body>
+</html>

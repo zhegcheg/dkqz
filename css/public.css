@@ -1,0 +1,37 @@
+html,
+body {
+	height: 100%;
+	font-size: 21px;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* 顶部导航 */
+header {
+	height: 3.5rem;
+	background-color: aqua;
+}
+
+/* 中间正文内容 */
+section {
+	overflow: auto;
+	padding-bottom: 0.25rem;
+}
+
+
+/* 底部导航 */
+footer {
+	height: 1.35rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	font-size: 0.51rem;
+	justify-content: space-around;
+	align-content: center;
+	background-color: blueviolet;
+}

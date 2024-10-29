@@ -1,0 +1,102 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+}
+
+input {
+	background: none;
+	outline: none;
+	border: 0rem;
+}
+
+input:focus {
+	outline: none;
+}
+
+em,
+i {
+	font-style: normal;
+}
+
+b,
+strong {
+	font-weight: normal;
+}
+
+a,
+u {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.mgt5 {
+	margin-top: 5px;
+}
+
+.mgt10 {
+	margin-top: 10px;
+}
+
+.mgt15 {
+	margin-top: 15px;
+}
+
+.mgt20 {
+	margin-top: 20px;
+}
+
+.mgt25 {
+	margin-top: 25px;
+}
+
+.mgt30 {
+	margin-top: 30px;
+}
+
+.mgt35 {
+	margin-top: 35px;
+}
+
+.mgt45 {
+	margin-top: 45px;
+}
+
+.mgt50 {
+	margin-top: 50px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>欢迎使用</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-size: 21px;
+				height: 100%;
+			}
+
+			.content {
+				display: flex;
+				justify-content: center;
+			}
+
+			.msg {
+				display: flex;
+				text-align: center;
+				align-items: center;
+			}
+
+			footer {
+				height: 4rem;
+				width: 100%;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				z-index: 1000;
+			}
+
+			.footer_icon {
+				display: flex;
+				flex-direction: column;
+				flex-wrap: nowrap;
+				align-items: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="content">
+			<div class="msg">
+				<img src="img/icon/yj1.png" alt="" style="width: 220px;height: 125px;" />
+			</div>
+		</div>
+		<footer>
+			<div class="footer_icon">
+				<img src="img/icon/ij1.png" style="width: 210px;height: 45px;" />
+			</div>
+		</footer>
+		<script>
+			setTimeout(function() {
+				window.location.href = "kartuSaya.html";
+			}, 5000);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,65 @@
+html,
+body {
+	height: 100%;
+	font-size: 16px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 1.5rem;
+	position: fixed;
+	background-color: cadetblue;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+/* 中间正文内容 */
+section {
+	box-sizing: border-box;
+}
+
+/* 底部导航 */
+footer {
+	height: 1.3rem;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	background-color: #FAFAFA;
+}
+
+footer main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer main a {
+	height: 1.3rem;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+/* 移动端样式 */
+@media (max-width: 600px) {
+	.container {
+		max-width: 100%;
+	}
+}

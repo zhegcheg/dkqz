@@ -1,0 +1,134 @@
+.header_box {
+	background-image: url("../img/a1001.png");
+	background-size: 100%;
+	height: 255px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 30px;
+}
+
+.user_header_item {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	height: 64px;
+	align-items: center;
+}
+
+.user_cover {
+	width: 64px;
+	height: 64px;
+}
+
+.user_phone {
+	color: #fff;
+	font-size: 21px;
+	font-weight: 600;
+	margin-left: 20px;
+}
+
+.user_info_box {
+	height: 100px;
+}
+
+.user_info_item {
+	height: 100px;
+	border-radius: 10px;
+	background-color: #0271B6;
+	margin-top: -75px;
+}
+
+.user_info_item {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.user_info_item_1 {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.user_info_item_1>div:nth-child(1) {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.user_info_item_1>div:nth-child(2) {
+	color: #fff;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.user_info_box_2 {
+	margin-top: 20px;
+	height: 110px;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 13px;
+}
+
+.flex_row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+.user_info_box_3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #fff;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.user_info_box_3>div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.user_info_box_3>div:last-child {
+	border-bottom: 0px solid #fff;
+}
+
+.user_info_box_3>div:nth-child(n+2) {
+	margin-top: 15px;
+}
+
+
+.user_info_item_33 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.user_icon_item {
+	width: 25px;
+	height: 25px;
+}
+
+.user_info_item_33>div {
+	margin-left: 10px;
+	color: #0271B6;
+	font-size: 14px;
+}
+
+.user_info_box_3>div>div:nth-child(2) {
+	color: rgba(0, 0, 0, 0.6);
+}

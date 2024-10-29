@@ -1,0 +1,88 @@
+html,
+body {
+	box-sizing: border-box;
+	background-color: #F3F3F3;
+}
+
+header {
+	height: 75px;
+	background-color: #0271B6;
+	border-bottom-left-radius: 25px;
+	color: #fff;
+	padding-left: 30px;
+	padding-top: 15px;
+}
+
+header .main {
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+}
+
+.msg {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.paninFintech_box {
+	margin-top: 55px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.paninFintech {
+	width: 120px;
+	height: 65px;
+}
+
+.form-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.input_item {
+	border: 1.5px solid #0271B6;
+	height: 45px;
+	width: 320px;
+	border-radius: 7px;
+	text-indent: 5px;
+	font-size: 17px;
+}
+
+.form_tips {
+	margin-left: 45px;
+	color: #aaaaaa;
+}
+
+.form_xy {
+	text-align: left;
+	margin-left: 50px;
+}
+
+a {
+	color: #0271B6;
+}
+
+.btn_submit_box {
+
+	height: 55px;
+	line-height: 55px;
+	padding: 0 25px;
+}
+
+.btn_submit_item {
+	color: #fff;
+	background-color: #0271B6;
+	border-radius: 5px;
+	text-align: center;
+}
